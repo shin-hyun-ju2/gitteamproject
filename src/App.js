@@ -5,6 +5,8 @@ import StarRating from './components/StarRating';
 import { Routes, Route } from 'react-router-dom';
 
 import Cart from './cart/Cart';
+import Login from './login/Login';
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
           </>
         } />
         <Route path="/Cart" element={<Cart />} />
+        <Route path="/Login" element={<Login />} />
       </Routes>
     </div>
   );
