@@ -1,2 +1,0 @@
-# gitteamproject
-gitteamproject
